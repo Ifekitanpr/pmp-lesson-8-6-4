@@ -1,10 +1,12 @@
-# Illustration prompts
+# Final illustration prompts
 
-Common direction for every asset: clean professional flat editorial vector illustration for a CertSprints PMP e-learning lesson; restrained navy, bright blue, white, pale blue-grey and small orange accents; crisp geometric shapes; adult workplace characters with natural proportions; subtle depth; generous negative space; no text, letters, numbers, logos, watermarks, gradients or decorative icon clutter; 16:9 composition.
+Built-in image generation was used with two style references: the approved PMP `hook-aging-forecast.png` illustration and the approved mechanic illustration created for Lesson 8.6.2.
 
-- `cruise-control.png`: A responsible professional remains alert and in control while an intelligent vehicle assistance system supports the journey.
-- `ai-guardrails.png`: A project manager supervises an AI system inside clear protective boundaries, with five distinct safeguards represented visually but without text.
-- `data-privacy.png`: A project manager carefully protects sensitive stakeholder data before allowing an AI system to process information.
-- `ethics-mapping.png`: A project manager evaluates an AI recommendation against four balanced ethical principles around a central decision.
-- `exam-responsible-ai.png`: A project manager chooses the most responsible AI action in a calm professional exam-decision scene.
-- `human-accountability.png`: An AI assistant offers analysis while the human project manager retains final judgement, ownership and accountability.
+Common direction: use the references only for their mature semi-realistic flat 2D editorial visual language—natural adult anatomy, refined faces, subtle flat shading, coherent perspective and a white-led composition. Use the exact CertSprints palette: bright blue `#007BFF`, orange accent `#FF6B35`, deep navy `#0F172A`, white and pale blue-grey. Keep scenes simplified with generous white space. Boards and papers must face their users and contain only large abstract marks with no readable text. Avoid photographic realism, 3D, cartoon line art, childish proportions, oversized heads, floating icons, icon collages, busy software screens, tiny UI details, backwards papers, logos and watermarks.
+
+- `cruise-control.png`: Inside a modern electric vehicle, a mature driver keeps both hands on the wheel while the road, lane markings and traffic remain clearly visible beyond the windscreen.
+- `ai-guardrails.png`: A mature project manager leads a governance review of one abstract AI recommendation with three mature colleagues before approval.
+- `data-privacy.png`: A mature project manager and data-protection colleague redact sensitive rows on a working sheet before placing a sanitized copy into an intake tray.
+- `ethics-mapping.png`: A mature project manager and three colleagues weigh four correctly oriented governance materials during a serious review discussion.
+- `exam-responsible-ai.png`: A mature project manager and senior colleague compare three broad recommendation rows with an open baseline binder and identify the responsible choice.
+- `human-accountability.png`: A mature project manager checks analysis against evidence and signs the final decision record while a colleague advises.
