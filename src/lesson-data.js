@@ -1,0 +1,82 @@
+export const lesson = {
+  number: "8.6.4",
+  title: "PMI's Perspective: Responsible & Ethical AI",
+  screens: [
+    {
+      id: "hook", tab: "Hands on the wheel", type: "reveal", image: "cruise-control",
+      heading: "The car assists.",
+      open: "Cruise control can hold your speed, read the lane markings, and even brake for the car ahead. None of that changes one fact: if the car crashes, the driver answers for it, not the software. The car assists. The driver is still the one with their hands on the wheel, their eyes on the road, and their name on the outcome.",
+      cta: "Connect the analogy to AI",
+      reveal: { title: "Accountability never transfers to the algorithm", image: "cruise-control", text: "PMBOK® 8 (X3.3) makes the same point about AI on a project: the benefits come bundled with risks, and it's up to human beings to take those risks into account and decide how AI is used. The Guide frames AI adoption as an ethical matter, asking project professionals to foster a culture of awareness and responsible use. Accountability for an AI-assisted decision never transfers to the algorithm — it stays with the human who deployed it." },
+    },
+    {
+      id: "guardrails", tab: "AI guardrails", type: "explore", image: "ai-guardrails",
+      heading: "The guardrails the project manager owns",
+      open: "PMI lays out five concerns an AI policy needs to turn from slogans into practice, plus one principle that binds all of them together. Click each to explore.",
+      items: [
+        { title: "Reliability / Safety", text: "AI output can be biased, incorrect, or irrelevant. It must be checked and validated before it is trusted — exactly as Olivia verified the East-region flag before acting. The AI system should be properly designed, tested, and monitored to the level of safety the context requires." },
+        { title: "Transparency", text: "How data is used, how the model works, and how decisions are made should be shared openly with end users and impacted parties." },
+        { title: "Copyright / IP", text: "Ownership of AI-generated content can be unclear. Know the laws and licences governing the data the model uses and the outputs it produces." },
+        { title: "Sustainability", text: "Every AI query consumes electricity, water, and compute. This footprint should weigh in the decision to use AI for a task at all." },
+        { title: "Human Oversight", text: "Accountability stays with people. AI advises and accelerates; the project manager decides and answers for the outcome." },
+      ],
+      after: [{ label: "Worth noticing", text: "There's an elegant loop worth noticing: sustainability is both a thing AI helps manage and a cost AI itself incurs." }],
+    },
+    {
+      id: "privacy", tab: "Data privacy", type: "reveal", image: "data-privacy",
+      heading: "Not every AI tool treats your data the same way.",
+      open: "There's a practical point here that's easy to overlook until it's too late.",
+      cta: "Follow the data",
+      reveal: { title: "The model's appetite for your data", image: "data-privacy", text: "Free AI tools often reserve the right to use your prompts to retrain their models, while paid versions typically let you restrict that — protecting privacy and intellectual property. On a program like Bloom's, feeding franchisee contracts or customer data into a public model could leak confidential information into someone else's training set. Responsible adoption means choosing tools whose data handling matches the sensitivity of the project's information, and codifying that choice in an organizational AI policy so it is not left to each individual's discretion." },
+    },
+    {
+      id: "ethics", tab: "Code of Ethics", type: "explore", image: "ethics-mapping",
+      heading: "None of this is new ethics.",
+      open: "It's the PMI Code of Ethics and Professional Conduct, applied to a new tool. Click each pairing.",
+      items: [
+        { title: "Honesty → Transparency", text: "Being transparent about AI use is honesty about how a decision was reached." },
+        { title: "Responsibility → Validation", text: "Validating output before relying on it is taking responsibility for the outcome, not outsourcing it to the algorithm." },
+        { title: "Respect → Data Protection", text: "Guarding stakeholders' data from an unvetted tool is respect for the people that data belongs to." },
+        { title: "Fairness → Bias Awareness", text: "Not letting a biased model make decisions that disadvantage a group is fairness in practice." },
+      ],
+      after: [{ label: "Exam signal", text: "The exam tests AI ethics as an extension of the ethics candidates already know, not as a separate rulebook." }],
+    },
+    {
+      id: "exam", tab: "Exam lens", type: "reveal", image: "exam-responsible-ai",
+      heading: "One test decides the best answer almost every time.",
+      open: "When a scenario tempts you to rely on AI.",
+      cta: "Reveal the responsible-AI test",
+      reveal: { title: "Responsible-AI stems", image: "exam-responsible-ai", text: "The best answer almost always preserves human validation and accountability, protects stakeholder data, and is transparent about AI's role. Reject options where the AI \"makes the call,\" where unverified output drives a decision, where sensitive data is fed to an unvetted tool, or where the PM hides that AI was used. Responsible adoption is the safe, PMI-aligned choice." },
+      quiz: {
+        question: "Scenario: A project manager is behind schedule and feeds a batch of confidential client contracts into a free, public AI tool to quickly generate a risk summary. The AI's output flags no major risks, so the project manager reports to the sponsor that the contracts are clean, without reviewing them personally. What is the most significant problem with this approach?",
+        answers: [
+          "Confidential data was exposed to a tool that may retrain on it, and an unvalidated AI output was used to make a decision without human verification — a double failure of data protection and accountability",
+          "The project manager should have used a slower, more traditional method instead of AI entirely",
+          "The AI tool's summary is probably accurate, so the real issue is only that it took too long to get the result",
+          "The sponsor should have been the one to run the AI tool, not the project manager",
+        ],
+        correct: 0,
+        correctFeedback: "Correct! This stacks two of PMI's guardrails at once: sensitive data went into a tool whose data-handling terms weren't vetted, and an unverified AI output drove a reported decision with no human check. Responsible adoption requires both a tool matched to the data's sensitivity and validation before the output is trusted — accountability for \"the contracts are clean\" still belongs to the project manager, not the model.",
+        incorrectFeedback: "Reconsider — AI itself isn't the problem here, nor is speed. The failure is specific: confidential data went to an unvetted free tool, and its unverified output was reported as fact without human validation. Both guardrails were skipped.",
+      },
+    },
+    {
+      id: "synthesis", tab: "Synthesis", type: "reveal", image: "human-accountability",
+      heading: "Cruise control can hold the lane. It can never hold the responsibility.",
+      open: "Back to that dashboard one more time.",
+      cta: "Review the takeaways",
+      reveal: {
+        title: "Responsible and ethical AI", image: "human-accountability",
+        text: "AI's benefits come bundled with risks, and PMI frames managing that bundle as an ethical matter, not just a technical one. Five guardrails — reliability/safety, transparency, copyright/IP, sustainability, and human oversight — turn that framing into practice, and human oversight is the one that binds the rest together: AI advises and accelerates, but the project manager decides and answers for the outcome. None of it is new ethics; it's the PMI Code of Ethics — responsibility, respect, fairness, and honesty — applied to a new tool.",
+        bullets: [
+          "Accountability for an AI-assisted decision stays with the human who deployed it, always",
+          "Five guardrails: reliability/safety, transparency, copyright/IP, sustainability, human oversight (the binding one)",
+          "Free AI tools may retrain on your prompts; paid tools typically let you restrict that — match the tool to the data's sensitivity, and codify the choice in an organizational AI policy",
+          "Code of Ethics mapping: honesty → transparency, responsibility → validation, respect → data protection, fairness → bias awareness",
+          "Best exam answer: preserves human validation and accountability, protects stakeholder data, stays transparent about AI's role",
+          "Reject answers where AI \"makes the call,\" unverified output drives a decision, sensitive data meets an unvetted tool, or AI use is hidden",
+        ],
+      },
+    },
+  ],
+};
